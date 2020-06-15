@@ -1,0 +1,48 @@
+{
+  "name": "img-hotspot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --colors  --display-reasons --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin7C/img-hotspot.git"
+  },
+  "author": "Kevin7C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin7C/img-hotspot/issues"
+  },
+  "homepage": "https://github.com/Kevin7C/img-hotspot#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^4.0.0-alpha",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "contextmenu": "^1.0.2",
+    "uuid": "^3.3.3"
+  }
+}
